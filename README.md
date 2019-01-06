@@ -2,4 +2,4 @@
 
 #coding with MATLAB
 
-#only including coding exercise, no quiz contained
+#only include coding exercise, no quiz contained
