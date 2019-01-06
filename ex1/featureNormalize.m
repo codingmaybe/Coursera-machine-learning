@@ -25,8 +25,11 @@ sigma = zeros(1, size(X, 2));
 %
 % Hint: You might find the 'mean' and 'std' functions useful.
 %       
-mu = mean(X);
-sigma = std(X);
+for i=1:size(X,2)  
+    mu(i)=mean(X(:,i));  %第i列所有元素的平均值
+    sigma(i)=std(X(:,i));
+end
+X_norm=(X_norm - mu) ./ sigma;
 
 
 
